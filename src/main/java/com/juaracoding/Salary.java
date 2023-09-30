@@ -14,9 +14,9 @@ public class Salary {
 
         double gajiBersih = gaji - pajak;
 
-        System.out.println("Gaji karyawan: " + gaji);
-        System.out.println("Pajak yang dikenakan: " + pajak);
-        System.out.println("Gaji bersih: " + gajiBersih);
+        System.out.println("Gaji karyawan: $" + gaji);
+        System.out.println("Pajak yang dikenakan: $" + pajak);
+        System.out.println("Gaji bersih: $" + gajiBersih);
 
         input.close();
     }
